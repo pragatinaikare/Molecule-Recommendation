@@ -8,7 +8,6 @@ from utils import get_logger
 
 logger = get_logger(__name__)
 
-
 def setupdir(path):
     os.makedirs(path, exist_ok=True)
     os.makedirs(os.path.join(path, "tb"), exist_ok=True)
